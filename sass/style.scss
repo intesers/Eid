@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine:700');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body{
+	margin:0;
+	padding: 0; 
+	height: 100vh;
+}
+
+section{
+	background: {
+		image:  url(../image/bg.jpg);
+		size: cover;
+		position: center;
+		repeat: no-repeat;
+	}
+
+	height: 100%;
+}
+
+.bg{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.container{
+	max-width: 1152px;
+	width: 90%;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	h1{
+		font-family: 'Tangerine', cursive;
+		font-size: 6em;
+		color:  #fff;
+	}
+
+	.countdown{
+		display: flex;
+		font-size: 3em;
+		color: #fff;
+		font-family: 'Oswald', sans-serif;
+		text-align: center;
+		margin-top: 10%;
+
+		span{
+			display: block;
+			text-align: center;
+			margin-right: 20px;
+		}
+	}
+}
+
+
+@media only screen and (max-width: 500px){
+	.container{
+		h1{
+			font-size: 5em;
+		}
+
+		.countdown{
+			font-size: 2em;
+		}
+	}
+}
+
+@media only screen and (max-width: 395px){
+	.container{
+		h1{
+			font-size: 4em;
+		}
+
+		.countdown{
+			font-size: 1.5em;
+		}
+	}
+}
