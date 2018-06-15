@@ -45,15 +45,4 @@ section {
       text-align: center;
       margin-right: 20px; }
 
-@media only screen and (max-width: 500px) {
-  .container h1 {
-    font-size: 5em; }
-  .container .countdown {
-    font-size: 2em; } }
-@media only screen and (max-width: 395px) {
-  .container h1 {
-    font-size: 4em; }
-  .container .countdown {
-    font-size: 1.5em; } }
-
 /*# sourceMappingURL=style.css.map */
